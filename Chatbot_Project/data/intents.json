@@ -1,0 +1,235 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "What's up",
+        "How are you",
+        "Hi there",
+        "Greetings"
+      ],
+      "responses": [
+        "Hello! How can I help you?",
+        "Hi there! What can I do for you?",
+        "Hey! How can I assist you today?",
+        "Hi! I'm here to help.",
+        "Hello! What brings you here today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "I'm leaving",
+        "Have a good day",
+        "Talk to you later",
+        "Catch you later",
+        "I have to go"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later!",
+        "Bye! Come back soon.",
+        "Take care!",
+        "It was nice talking to you!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot",
+        "Thank you so much",
+        "I appreciate it",
+        "Thanks for your help"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!",
+        "My pleasure!",
+        "Glad I could assist!"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "What are you",
+        "Who are you",
+        "What can you do",
+        "Tell me about yourself",
+        "What is your purpose",
+        "What do you do"
+      ],
+      "responses": [
+        "I'm an AI chatbot designed to assist you with your questions.",
+        "I'm a conversational AI here to help answer your queries.",
+        "I'm a chatbot powered by machine learning, here to assist you!",
+        "I'm an intelligent assistant ready to help with your questions."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me",
+        "I need help",
+        "Help",
+        "What can you help with",
+        "Assist me",
+        "I need assistance"
+      ],
+      "responses": [
+        "Of course! What do you need help with?",
+        "I'm here to help! What's your question?",
+        "Sure! How can I assist you?",
+        "I'd be happy to help. What do you need?"
+      ]
+    },
+    {
+      "tag": "chatbot_info",
+      "patterns": [
+        "What is a chatbot",
+        "Tell me about chatbots",
+        "How do chatbots work",
+        "Explain chatbots",
+        "What are chatbots used for"
+      ],
+      "responses": [
+        "A chatbot is a software application that simulates human conversation through text or voice interactions.",
+        "Chatbots are AI-powered programs designed to communicate with users and provide automated responses.",
+        "Chatbots use natural language processing to understand and respond to user queries in a conversational manner.",
+        "Chatbots are intelligent virtual assistants that can handle customer service, answer questions, and perform various tasks."
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you",
+        "What's your age",
+        "When were you created",
+        "How long have you existed"
+      ],
+      "responses": [
+        "I'm a chatbot, so I don't age like humans do!",
+        "I was created recently as part of an AI project.",
+        "I exist in the digital world, so age doesn't really apply to me!",
+        "I'm as young as this conversation!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What's your name",
+        "What should I call you",
+        "Do you have a name",
+        "Who are you"
+      ],
+      "responses": [
+        "I'm an AI chatbot, you can call me Bot!",
+        "You can call me ChatBot!",
+        "I'm your friendly AI assistant!",
+        "I'm just a chatbot here to help you."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather",
+        "How's the weather today",
+        "Is it raining",
+        "Will it rain today",
+        "Weather forecast"
+      ],
+      "responses": [
+        "I don't have access to real-time weather data, but you can check a weather website or app!",
+        "I can't check the weather for you, but weather.com might help!",
+        "I'm not connected to weather services, but I recommend checking your local forecast online."
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it",
+        "What's the time",
+        "Tell me the time",
+        "Current time"
+      ],
+      "responses": [
+        "I don't have access to real-time information, but you can check your device's clock!",
+        "I can't tell you the current time, but your device should show it!",
+        "I don't track time, but your phone or computer can tell you!"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Do you know any jokes",
+        "Say something funny",
+        "Tell me something funny"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "What do you call a fake noodle? An impasta!",
+        "Why did the scarecrow win an award? He was outstanding in his field!",
+        "What do you call a bear with no teeth? A gummy bear!"
+      ]
+    },
+    {
+      "tag": "AI",
+      "patterns": [
+        "What is AI",
+        "Tell me about artificial intelligence",
+        "Explain AI",
+        "What is artificial intelligence",
+        "How does AI work"
+      ],
+      "responses": [
+        "Artificial Intelligence (AI) is the simulation of human intelligence by machines, especially computer systems.",
+        "AI refers to computer systems that can perform tasks that typically require human intelligence, such as learning, reasoning, and problem-solving.",
+        "AI is a branch of computer science focused on creating intelligent machines that can think and learn like humans.",
+        "Artificial Intelligence enables machines to learn from experience, adapt to new inputs, and perform human-like tasks."
+      ]
+    },
+    {
+      "tag": "machine_learning",
+      "patterns": [
+        "What is machine learning",
+        "Tell me about ML",
+        "Explain machine learning",
+        "How does machine learning work"
+      ],
+      "responses": [
+        "Machine Learning is a subset of AI that enables systems to learn and improve from experience without being explicitly programmed.",
+        "ML is the study of algorithms and statistical models that computers use to perform tasks without explicit instructions.",
+        "Machine Learning allows computers to learn patterns from data and make predictions or decisions based on that learning.",
+        "ML is a method of data analysis that automates analytical model building using algorithms that iteratively learn from data."
+      ]
+    },
+    {
+      "tag": "nlp",
+      "patterns": [
+        "What is NLP",
+        "Tell me about natural language processing",
+        "Explain NLP",
+        "What is natural language processing"
+      ],
+      "responses": [
+        "Natural Language Processing (NLP) is a branch of AI that helps computers understand, interpret, and manipulate human language.",
+        "NLP is the technology that enables computers to process and analyze large amounts of natural language data.",
+        "NLP combines computational linguistics with machine learning to help computers understand human language.",
+        "Natural Language Processing allows machines to read, understand, and derive meaning from human languages."
+      ]
+    }
+  ]
+}
